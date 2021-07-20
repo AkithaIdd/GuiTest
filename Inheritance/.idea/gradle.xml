@@ -11,7 +11,10 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/app/LearnJava" />
+            <option value="$PROJECT_DIR$/app/HashMap" />
+            <option value="$PROJECT_DIR$/app/Inheritance" />
+            <option value="$PROJECT_DIR$/app/JavaObjectsAsmethodPara" />
+            <option value="$PROJECT_DIR$/app/SortArray" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

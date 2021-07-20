@@ -1,0 +1,6 @@
+rootProject.name = "Inheritance"
+include ':app'
+include ':app:Inheritance'
+include ':app:JavaObjectsAsmethodPara'
+include ':app:HashMap'
+include ':app:SortArray'

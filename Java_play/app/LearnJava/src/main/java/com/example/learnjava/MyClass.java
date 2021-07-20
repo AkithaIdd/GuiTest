@@ -90,47 +90,81 @@ public class  MyClass {
 //            System.out.println("counting");
 //            count++;
 //        }while (limit < count);
-        anotherMethod("world", 3, 2.2);
-        System.out.println(anotherMethodint(2, 5));
+//        anotherMethod("world", 3, 2.2);
+//        System.out.println(anotherMethodint(2, 5));
+//
+//        anotherMethodchar("A");
+//
+//        //exercise
+//
+//
+//        System.out.println("Area is "+ recArea(10, 19));
+//
+//
+//
+//
+//
+//    }
+//// Multiple Args
+//    public static void anotherMethod(String word , int num , double dub){
+//
+//        System.out.println("Hello "+ word + num + dub);
+//    }
+//
+//    // Return types
+//    public static int anotherMethodint(int no1, int no2){
+//
+//        int sum = no1 + no2;
+//
+//        return sum;
+//
+//    }
+//    public static void anotherMethodchar(String cha){
+//
+//        System.out.println("Hello "+ cha);
+//    }
+//
+//    // exercise
+//
+//    public static int recArea(int width, int len){
+//        int area = width * len;
+//        if (area <0){
+//            return -area;
+//        }
+//        return area;
+        //create objects
+        Microphone microphone = new Microphone("ABC","RED",123);
+        Microphone microphone1 = new Microphone("XZY","BLUE",456);
+        Microphone microphone2 = new Microphone();
 
-        anotherMethodchar("A");
+        microphone2.setColor("black");
 
-        //exercise
+        microphone.setName("ABCD");
+     //   microphone.setColor();
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("im akitha  ");
+        stringBuilder.append("25 years old");
+
+        System.out.println(stringBuilder);
+
+        System.out.println(microphone.getName());
+        System.out.println(microphone1.getColor());
+        System.out.println(microphone1.getModel());
+        System.out.println(microphone2.getColor() );
 
 
-        System.out.println("Area is "+ recArea(10, 19));
 
 
+//        microphone.name = "ABC";
+//        microphone.color = "RED";
+//        microphone.model = 123;
+//
+//        microphone1.name = "XZY";
+//        microphone1.color = "BLUE";
+//        microphone1.model = 456;
 
-
-
-    }
-// Multiple Args
-    public static void anotherMethod(String word , int num , double dub){
-
-        System.out.println("Hello "+ word + num + dub);
-    }
-
-    // Return types
-    public static int anotherMethodint(int no1, int no2){
-
-        int sum = no1 + no2;
-
-        return sum;
-
-    }
-    public static void anotherMethodchar(String cha){
-
-        System.out.println("Hello "+ cha);
-    }
-
-    // exercise
-
-    public static int recArea(int width, int len){
-        int area = width * len;
-        if (area <0){
-            return -area;
-        }
-        return area;
+        //calling methods
+//        microphone.turnOn();
+//        microphone1.setVolume();
     }
 }
