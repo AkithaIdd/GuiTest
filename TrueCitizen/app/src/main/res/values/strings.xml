@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">True Citizen</string>
+    <string name="trueBtnText">TRUE</string>
+    <string name="falseBtnText">FALSE</string>
+    <string name="nxtBtnText">NEXT</string>
+    <string name="preBtnText">PREVISE</string>
+
+     <string name="question_apple">The Big Apple is a nickname given to Washington D.C in 1971.</string>
+     <string name="question_muddy">Muddy York is a nickname for New York in the Winter.</string>
+     <string name="question_nut">Peanuts are not nuts!</string>
+     <string name="question_sleep">People may sneeze or cough while sleeping deeply.</string>
+     <string name="question_copy">Copyrights depreciate over time.</string>
+     <string name="correct_answer">That\'s correct</string>
+     <string name="wrong_answer">That\'s Wrong</string>
+</resources>
