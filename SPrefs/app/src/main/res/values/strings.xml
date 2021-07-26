@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SPrefs</string>
+    <string name="textView">Enter Message</string>
+</resources>
